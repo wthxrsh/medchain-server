@@ -24,6 +24,7 @@ urlpatterns = [
     path('auth/', include('users.urls')),
     path('records/', include('records.urls')),
     path('share/', include('sharing.urls')),
+    path('appointments/', include('appointments.urls')),
 ]
 
 if settings.DEBUG:
