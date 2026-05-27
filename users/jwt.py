@@ -13,9 +13,12 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
 
     def validate(self, attrs):
         data = super().validate(attrs)
-        # Also include role in the response body
+        # Include user profile fields in the response body
         data['role'] = self.user.role
         data['email'] = self.user.email
+        data['first_name'] = self.user.first_name
+        data['last_name'] = self.user.last_name
+        data['user_id'] = str(self.user.id)
         return data
 
 
