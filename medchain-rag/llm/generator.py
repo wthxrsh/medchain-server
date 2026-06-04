@@ -57,8 +57,11 @@ async def _call_gemini(prompt: str) -> str:
             "maxOutputTokens": 2048,
         },
     }
-    async with httpx.AsyncClient(timeout=30.0) as client:
+    async with httpx.AsyncClient(timeout=60.0) as client:
         resp = await client.post(url, json=payload)
+        if resp.status_code != 200:
+            logger.error(f"Gemini API error (Status {resp.status_code}): {resp.text}")
+            return f"Gemini API returned error status {resp.status_code}. Please check your API key, model configurations, or connection."
         data = resp.json()
 
     try:
