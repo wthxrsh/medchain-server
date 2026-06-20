@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "61182b8eaa1ef887",
+    "type": "split",
+    "children": [
+      {
+        "id": "7130ade04972db77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c15cfe2bbc266050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project Roadmap & Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project Roadmap & Workflow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0469b955ee693918",
+    "type": "split",
+    "children": [
+      {
+        "id": "9be186ccc52cf851",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dee24c73a665d7fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b7fb73bac834b0bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cd9f8c505b6c4836",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "57d2aa6f323827f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ffd914be1eca4e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74fd863facc79850",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project Roadmap & Workflow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Project Roadmap & Workflow"
+            }
+          },
+          {
+            "id": "099904a95bf55107",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Project Roadmap & Workflow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Project Roadmap & Workflow"
+            }
+          },
+          {
+            "id": "b9d4b987bf731ede",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "646226c6bab5e356",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fcf4b965058c8945",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project Roadmap & Workflow.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Project Roadmap & Workflow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c15cfe2bbc266050",
+  "lastOpenFiles": [
+    "Requirements.md",
+    "Project Roadmap & Workflow.md",
+    "Bugs & Production Readiness.md",
+    "Database Schema.md",
+    "Untitled.canvas",
+    "RAG Service.md",
+    "API Endpoints.md",
+    "Testing Strategy.md",
+    "Deployment Runbook.md",
+    "Security Model.md",
+    "Implementation Guide.md",
+    "System Architecture.md"
+  ]
+}
